@@ -1,0 +1,63 @@
+body {
+    font-family: "DejaVu Serif", "Bitstream Vera Serif", "Century Schoolbook L", "Lucida Bright", Georgia, serif;
+    padding:0;
+    margin:0;
+}
+.baner {
+    background-color: #005B4F;
+    color:white;
+    text-align: center;
+    font-size: 50%;
+    height: 20px;
+
+}
+.glowny {
+    background-color: #E1E2E1;
+    height: 400px;
+    padding:20px;
+    overflow: scroll;
+    color:black;
+}
+
+.zdjecie {
+    width: 20%;
+}
+.opis {
+
+}
+
+.flex {
+    display: flex;
+    align-content: flex-start;
+}
+
+.stopka {
+    background-color: #005B4F;
+    color:white;
+    text-align: center;
+    width: 50%;
+    height: 20px;
+}
+.osoba {
+    display: flex;
+    align-content: flex-start;
+}
+
+a {
+    color:white;
+}
+
+
+h1 {
+    padding:0;
+    margin:0;
+}
+h2 {
+    background-color: #00897B;
+    text-align: center;
+}
+
+img {
+    padding: 20px;
+    border-radius: 100%;
+  }
