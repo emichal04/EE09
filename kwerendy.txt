@@ -1,0 +1,10 @@
+/*1*/ select imie,nazwisko,opis,zdjecie from osoby where hobby_id=1 or hobby_id=6;
+/*2*/ select osoby.id,nazwisko,hobby.nazwa from osoby inner join hobby on osoby.hobby_id=hobby.id where rok_urodzenia>2000; 
+/*3*/ select id,zdjecie from osoby where imie like "Monika" limit 5; 
+/*4*/ 
+create table wpisy(
+    id int unsigned not null auto_increment,
+    wpis text,
+    uzytkownik_id int unsigned not null,
+    primary key(id)
+);
